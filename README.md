@@ -1,11 +1,11 @@
 # Bert-Analysis
-Simple CLI for analyzing Google's Bert predicted data
+Simple CLI for analyzing Google's Bert predicted data.
 ![](https://i.imgur.com/9bEI1KI.png)
 
 ## Motivation
-bert-text is designed to allow simple statistics measurement's of binary classifier's output preditions. By deafult bert crated the predicted classes colums by their order of apperence in the train.tsv file, bert-text takes care of rememering how the values were presented and uses this information to evaluate the predicted data. 
+bert-text is designed to allow simple statistics measurements of binary classifier's output preditions. By deafult Bert created the predicted classes columns by their order of appearence in the train.tsv file, bert-text takes care of remembering, how the values were presented and uses this information to evaluate the predicted data. 
 ## Requirements
-bert-analysis uses npyscreen to create comand line interface
+bert-analysis uses npyscreen to create command line interface
 ```
 pip install npyscreen
 ```
@@ -14,7 +14,7 @@ pip install npyscreen
 
 #### Bert takes 3 files as input:
 **1.  Traning file(train.tsv)**
-This is the file used while traning bert, the file is needed to analyze and remeber the classes order of apperence.
+This is the file used while traning Bert, the file is needed to analyze and remember the classes order of appearence.
 
 *Example*
 
@@ -26,7 +26,7 @@ This is the file used while traning bert, the file is needed to analyze and reme
 |4|0|'a'|'opinion 4'|
 
 **2.  Testing file**
-This is the file where you keep the classes for data used for testing bert.This file is needed because bert doesn't take the actual class for it's traning data so the file is there for comparison.
+This is the file where you keep the classes for data used for testing bert.This file is needed because bert doesn't take the actual class for it's traning data, so the file is there for comparison.
 
 *Example*
 
