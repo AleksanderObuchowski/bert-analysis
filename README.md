@@ -17,26 +17,31 @@ pip install npyscreen
 This is the file used while traning bert, the file is needed to analyze and remeber the classes order of apperence.
 
 *Example*
+
 | Index | class | a | text|
 | -------- | -------- | -------- |---|
 |1|0|'a'|'opinion 1'|
 |2|0|'a'|'opinion 2'|
 |3|1|'a'|'opinion 3'|
 |4|0|'a'|'opinion 4'|
+
 **2.  Testing file**
 This is the file where you keep the classes for data used for testing bert.This file is needed because bert doesn't take the actual class for it's traning data so the file is there for comparison.
 
 *Example*
+
 | class | text|
 | ------|---|
 |0|'opinion 1'|
 |0|'opinion 2'|
 |1|'opinion 3'|
 |0|'opinion 4'|
+
 **2.  Predicted file(test_results.tsv)**
 This is the file returned by bert after prediction. This file is needed to test the accuracy of bert output.
 
 *Example*
+
 | class 1| class 2|
 | ------|---|
 |0.00029595374|	0.99970406
